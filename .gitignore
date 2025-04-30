@@ -1,3 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Виртуальное окружение (обычно называется venv или env)
+venv/
+env/
+
+# Логи
 *.log
-node_modules/
+
+# Файл с переменными окружения
+.env
+
+# Настройки VS Code (если не хочешь их пушить)
+.vscode/
+
+# Системные файлы (для macOS и Windows)
 .DS_Store
+Thumbs.db
